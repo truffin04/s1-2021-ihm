@@ -1,8 +1,8 @@
-# Création site web
+# SAE_1_05_06
 
-## SAE_1_05_06
+## Ankama
 
-[Ankama](https://login.github.io/projet/)
+[L'accès vers le site](https://truffin04.github.io/projet/)
 
 ## Membres du groupe :
 
@@ -13,5 +13,12 @@ Etudiant 4 : [TACHERIFT sophiane](mailto:sophiane.tacherift@edu.univ-fcomte.fr?s
 
 # Présentation du projet
 
-...... (5/6 lignes)
 
+Dans le cadre de ce projet, nous allons créer un site web composé de 4 pages 
+nous avons tout sélectionné en fonction des propositions choisies par le client 
+Voici comment le travail sera partagé à travers notre équipe.
+Tout d'abord, la page d'accueil avec quelques informations générales sur l'entreprise, 
+puis le à propos de l'entreprise (comportant tout ce qui concerne son histoire)
+, dans une 3ème page, nous aurons les productions de Ankama ( les jeux, séries, jeux 
+de société), et pour finir une page concernant l'économie ( tout ce qui se passe 
+au niveau du staff et le capital)
