@@ -2,7 +2,7 @@
 
 ## Ankama
 
-[L'accès vers le site](https://truffin04.github.io/s1-2025-ihm/)
+[L'accès vers le site](https://truffin04.github.io/s1-2025-Sae-05-06/)
 
 ## Membres du groupe :
 
