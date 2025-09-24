@@ -15,7 +15,7 @@ Etudiant 4 : [TACHERIFT Sophiane](mailto:sophiane.tacherift@edu.univ-fcomte.fr?s
 
 
 Dans le cadre de ce projet, nous allons créer un site web composé de 4 pages 
-nous avons tout sélectionné en fonction des propositions choisies par le client 
+nous avons tout sélectionné en fonction des propositions choisies par le client.
 Voici comment le travail sera partagé à travers notre équipe.
 Tout d'abord, la page d'accueil avec quelques informations générales sur l'entreprise, 
 puis le à propos de l'entreprise (comportant tout ce qui concerne son histoire)
