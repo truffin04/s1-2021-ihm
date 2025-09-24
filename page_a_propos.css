@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
+    background-color: gray;
+    border-radius: 30px;
+    font-size: 80px;
+    text-align: center;
+    margin: 15px;
+}
+
+.T1{
+    color: rgb(197, 64, 3);
+}
+.T2{
+    color: rgb(240, 216, 6);
+}
+ul{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 5px;
+   
+} 
+.chose_connu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.dofus{
+    border: 3px solid orange;
+    height: 300px;
+}
+.Wakfu{
+    border: 3px solid orange;
+    height: 300px;
+}
+.Waven{
+    border: 3px solid orange;
+    height: 300px;
+}
+
+
