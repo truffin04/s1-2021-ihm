@@ -49,9 +49,10 @@ h1{
     justify-content: center;
     background-color: #000; 
     border-radius: 50px;
-    font-size: 91px;
+    font-size: 70px;
     text-align: center;
     margin: 15px;
+    gap: 10px;
     position: relative;
 }
 
@@ -81,7 +82,7 @@ h1::after, h1::before{
 }
 h1::before{
     filter: blur(1.5rem);
-    opacity: 0.7;
+    opacity: 0.5;
 }
 @keyframes spin{
     from{
@@ -108,7 +109,7 @@ h1::before{
 
 .locaux{
     border: 3px solid #FDC016;
-    height: 350px;
+    height: 330px;
     border-radius: 30px;
     
 }
@@ -117,35 +118,39 @@ h1::before{
 
 .ankama{
     border: 3px solid #FDC016;
-    height: 350px;
+    height: 330px;
     border-radius: 30px;
 }
 .Wakfu{
     border: 3px solid #FDC016;
-    height: 350px;
+    height: 330px;
     border-radius: 30px;
 }
 
+.info1{
+    background-color: #fd31162f;
+    border-radius: 20px;
+    border-style: hidden;
+    height: fit-content;
+    position: relative;
+}
 
 
 .info1>p{
     margin: 30px;
+    padding: 10px;
     font-size: 20px;
-    float: left;
+    
+    
 }
-.info1>img{
-    border: 3px solid #FB1D14;
-    /* display: flex;
-    float: right;       */
+.info1>.debut{
+    margin-right: 20px;
+    padding: 10px;
+    float: right;
     height: 200px;
-    /* margin-right: 150px;*/
-    border-radius: 15px;  
+    border-radius: 20px;
+   
 }
 
-.info1{
-    background-color: rgba(128, 128, 128, 0.575);
-    border-radius: 20px;
-    border-style: hidden;
-    height: fit-content;
-}
+
 
