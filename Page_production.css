@@ -1,1 +1,43 @@
+body {
+    display: flex;
+    gap:10px;
+}
 
+.image_production{
+    height: 275px;
+    width: 500px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:310px;
+}
+.barre {
+    border-radius: 10px;
+    border: 1px solid #EC5209;
+    padding: 10px;;
+    background-color: #FDC013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.barre a {
+    text-decoration: none;
+    margin: auto;
+    color:black;
+    background-color: white;
+    border: 1px solid black ;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.barre a:hover {
+    color: white;
+    background-color: #EC5209;
+}
