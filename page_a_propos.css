@@ -1,22 +1,64 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 h1{
     display: flex;
     justify-content: center;
     
-    background-color: gray;
-    border-radius: 30px;
-    font-size: 80px;
+    background-color: #000; 
+    border-radius: 50px;
+  
+    
+    font-size: 91px;
     text-align: center;
     margin: 15px;
+    position: relative;
 }
 
 .T1{
-    color: rgb(197, 64, 3);
+    color: #FB1D14;
+    background-color: #000;
+  
 }
 .T2{
-    color: rgb(240, 216, 6);
+    color: #FDC016;
+    background-color: #000;
+}
+
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+h1::after, h1::before{
+    
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle),red, orange, red);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 4px;
+    border-radius: 50px;
+    animation: 3s spin linear infinite;
+}
+h1::before{
+    filter: blur(1.5rem);
+    opacity: 0.7;
+}
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
 }
 ul{
     
@@ -26,23 +68,60 @@ ul{
     margin: 5px;
    
 } 
+
 .chose_connu{
     display: flex;
+    background-color: #fdbf162f;
+    border-radius: 50px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-}
-.dofus{
-    border: 3px solid orange;
-    height: 300px;
-}
-.Wakfu{
-    border: 3px solid orange;
-    height: 300px;
-}
-.Waven{
-    border: 3px solid orange;
-    height: 300px;
+    padding: 30px;
+    margin: 20px;
+
 }
 
+
+.locaux{
+    border: 3px solid #FDC016;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+
+
+
+.ankama{
+    border: 3px solid #FDC016;
+    height: 350px;
+    border-radius: 30px;
+}
+.Wakfu{
+    border: 3px solid #FDC016;
+    height: 350px;
+    border-radius: 30px;
+}
+
+
+
+.info1>p{
+    margin: 30px;
+    font-size: 20px;
+    float: left;
+}
+.info1>img{
+    border: 3px solid #FB1D14;
+    /* display: flex;
+    float: right;       */
+    height: 200px;
+    /* margin-right: 150px;*/
+    border-radius: 15px;  
+}
+
+.info1{
+    background-color: rgba(128, 128, 128, 0.575);
+    border-radius: 20px;
+    border-style: hidden;
+    height: fit-content;
+}
 
