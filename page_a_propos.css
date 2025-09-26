@@ -52,7 +52,7 @@ h1{
     font-size: 70px;
     text-align: center;
     margin: 15px;
-    gap: 10px;
+    gap: 20px;
     position: relative;
 }
 
@@ -76,7 +76,7 @@ h1::after, h1::before{
     left: 50%;
     translate: -50% -50%;
     z-index: -1;
-    padding: 4px;
+    padding: 5px;
     border-radius: 50px;
     animation: 3s spin linear infinite;
 }
